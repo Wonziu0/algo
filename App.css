@@ -1,0 +1,92 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #1f1f1f;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links .active-link {
+  font-weight: bold;
+  border-bottom: 2px solid #bb86fc;
+}
+
+.nav-links a:hover {
+  background-color: #333333;
+  color: #bb86fc;
+}
+
+
+.sorting-page {
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.block-diagram img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.code-container, .theory-description {
+  margin-top: 20px;
+}
+
+pre {
+  background-color: #2d2d2d;
+  padding: 15px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  border-radius: 8px;
+}
+
+pre code {
+  display: block;
+  font-family: monospace;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+
+h2, h3 {
+  color: #bb86fc;
+}
+
+.theory-description p {
+  color: #e0e0e0;
+}
+
+
+button:hover {
+  background-color: #9b69d9;
+}
+
+img{
+  min-height: 450px;
+  min-width: 700px;
+}
